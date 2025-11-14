@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+/* pharmacy container */
+.pharmacy_container{
+    width:100%;
+    height:500px;
+     display:none;
+    /* background-color: aquamarine; */
+    top:60px;
+    position: absolute;
+    z-index: 999;
+    color:black;
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.pharmacy_rows{
+    width:200px;
+    line-height: 30px;
+   
+}
+.pharmacy_container p:hover{
+    font-weight: 500;
+}
+.cat_menu:hover .pharmacy_container {
+    display:flex;
+    width: 1400px;
+    gap:30px;
+}

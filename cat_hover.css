@@ -1,0 +1,30 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.cat_container{
+    width:100%;
+    height:500px;
+     display: flex;
+    /* background-color: aquamarine; */
+    margin-top:150px;
+    padding-left: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.cat_container button{
+    background-color:#99c703;
+    border-radius: 6px;
+    border:0px solid white;
+    width:90px;
+    height:20px;
+    margin-left: 10px;
+}
+.cat_rows{
+    width:200px;
+    line-height: 30px;
+}
+.cats_cantainer p:hover{
+    font-weight: 500px;
+}

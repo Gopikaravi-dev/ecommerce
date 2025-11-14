@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* breed container */
+.breed_container{
+    display:none ;
+    overflow: auto;
+
+}
+.breed_div img{
+    width:150px;
+    height:150px;
+    margin: 10px 40px;
+}
+.breed_div p{
+    font-size: 19px;
+    text-align: center;
+   
+    font-weight: 500;
+}
+.breed::-webkit-scrollbar {
+        display: none;/* Hides scrollbar in WebKit-based browsers like Chrome, Safari, and older Edge*/
+    } 
+.breed_menu:hover .breed_container{
+    display: flex;
+} 

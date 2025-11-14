@@ -1,0 +1,48 @@
+/* Smooth scrolling for navbar links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Subtle fade-in effect for all sections */
+section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Add soft hover glow for cards */
+.card:hover {
+  box-shadow: 0 4px 20px rgba(0, 153, 255, 0.3);
+  transform: translateY(-5px) scale(1.02);
+}
+
+/* Button glow animation */
+.btn-primary:hover {
+  box-shadow: 0 0 15px rgba(13, 110, 253, 0.6);
+}
+
+/* Navbar shadow on scroll */
+.navbar.scrolled {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background: var(--bg-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 1.8rem;
+  }
+  .card {
+    margin-bottom: 15px;
+  }
+}
+
+/* Smooth hover link effects */
+a:hover {
+  text-decoration: underline;
+  transition: 0.3s;
+}
